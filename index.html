@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/9ee7cfffac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/media/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Youtube</title>
+   </head>
+
+
+   <body>
+     <div class="container">
+       <nav>
+        <ul>
+          <li><a href="#"><div class="bars"><i class="fas fa-bars"></i></div></a></li>
+          <script>
+    $(document).ready(function(){
+$(".bars").click(function(){
+  $("#sidebar").toggle();
+});
+});
+
+$(document).ready(function() {
+   var sideMenu = false;
+    $(".bars").click(function() {
+      if (!sideMenu) {
+        $("#grid-container").animate({left: "95px"});
+        sideMenu = true;
+      }
+      else {
+        $("#grid-container").animate({left: "325px"});
+        sideMenu = false;     
+      }
+    });
+}); 
+        </script>
+          <li><a href="#"><img  src="img/logo1.png" alt="Youtube" class="logo1"></a></li>
+          <li><a href="#"><div class="search"><input type="text" placeholder="Търсене"></div></a></li>
+          <li><a href="#"><div class="keyboard"><i class="far fa-keyboard"></i></div></a></li>
+          <li><a href="#"><div class="searchbtn"><i class="fas fa-search"></i></div></a></li>
+          <li><div class="btns-grid">
+          <a href="#"><div class="1"><i class="fas fa-video"></i></div></a>
+          <a href="#"><div class="2"><i class="fas fa-th"></i></div></a>
+          <a href="#"><div class="3"><i class="fas fa-ellipsis-v"></i></div></a>
+          </div></li>
+          <li><a href="#"><div class="user"><i class="fas fa-user-circle"></i>ВХОД</div></a></li>
+        </ul>
+    </nav>
+  </div>
+
+<main>
+
+  
+    
+  <div class="container2">
+    
+    
+    <div id="sidebar">
+        <ul>
+            <div class="scroll">
+            <a href="#"><div class="home"><li><i class="fas fa-home"></i>Начало</li></div></a>
+            <a href="#"><li><i class="fas fa-fire"></i>Набиращи популарност</li></a>
+            <a href="#"><div class="subs"><li><i class="fab fa-youtube"></i>Абонаменти</li></div></a>
+            <a href="#"><div class="library"><li><i class="fab fa-youtube"></i>Библиотека</li></div></a>
+            <a href="#"><div class="history"><li><i class="fas fa-history"></i>Историа</li></div></a>
+            <div class="text1"><p>Влезте в профила си, за да харесвате видеоклипове, да коментирате и да се абонирате.</p></div>
+            <div class="user1"><a href="#"><i class="fas fa-user-circle"></i> ВХОД</a></div>
+            <div class="hl"></div>
+            <div class="h1"><h4>Най-доброто от YouTube</h4></div>
+            <div class="buttons">
+            <a href="#"><li><i class="fas fa-music"></i>Музика</li></a>
+            <a href="#"><li><i class="far fa-futbol"></i>Спорт</li></a>
+            <a href="#"><li><i class="fas fa-gamepad"></i>Игри</li></a>
+            <a href="#"><li><i class="far fa-calendar-alt"></i>Новини</li></a>
+            <a href="#"><li><i class="fas fa-satellite-dish"></i>На Живо</li></a>
+            <a href="#"><li><i class="fas fa-broadcast-tower"></i>360-градусово видео</li></a>
+            </div>
+            <a href="#"><div class="surf"><li><i class="fas fa-plus-circle"></i>Сърфиране в каналите</li></div></a>
+            <div class="h2"><h4>Още от YouTube</h4></div>
+            <div class="buttons2">
+            <a href="#"><li><i class="fab fa-youtube"></i>Youtube Premium</li></a>
+            <a href="#"><li><i class="fas fa-satellite-dish"></i>На Живо</li></a>
+        </div>
+        <div class="buttons3">
+          <a href="#"><li><i class="fas fa-cog"></i>Настройка</li></a>
+          <a href="#"><li><i class="fab fa-font-awesome-flag"></i>Подадени сигнали</li></a>
+          <a href="#"><li><i class="far fa-question-circle"></i>Помощ</li></a>
+          <a href="#"><li><i class="far fa-comment-alt"></i>Изпращане на отзиви</li></a>
+        </div>
+            <div class="text2"><p>Информация  Преса <br> Авторски права <br> Връзка с нас Създатели  Рекламиране  Програмисти</p></div>
+            <div class="text3"><p>Условия Поверителност Правила и безопасност <br> Начин на работа на YouTube Изпробване на нови функции</p></a></div>
+            <div class="trademark">© 2020 Google LLC</div>
+          </ul>
+      </div>
+  
+  
+
+
+
+      <div id="sidebar2">
+        <ul>
+          <li><a href="#"><i class="fas fa-home"></i><br>Начало</a></li>
+          <li><a href="#"><i class="fas fa-fire"></i><br>Набиращи популарност</a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i><br>Абонаменти</a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i><br>Библиотека</a></li>
+          <li><a href="#"><i class="fas fa-history"></i><br>История</a></li>
+        </ul>
+      </div>
+  
+    </div>
+
+
+      
+
+ 
+
+
+
+    <div id="grid-container">
+
+
+
+
+      <div class="grid-item" id="grid1">
+        <a href="https://www.youtube.com/watch?v=ZmEHGXKicig"> 
+          <div class="vid1">
+          <img src="css/vids/pic1.jpg" width="360px" height="200px" id="pic" >
+          <img src="css/vids/preview1.gif" width="360px" height="200px" id="gif">
+          </div></a>
+        <script>
+          $('#grid1').hover(function(){
+    var hov = $(this).find('#gif'),
+        copy = hov.attr('src'); 
+        hov.attr('src','').attr('src',copy);
+});
+</script>
+        <a href="#"><img src="img/channel1.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+        <a href="#"><h4>Levan SAGINASHVILI vs Krasimir KOSTADINOV ARM WRESTLING 2016</h4></a>
+        <a href="#"><p>ARMWRESTLING TV</a><br>3,7 млн. показвания . преди 4 години</p>
+        <a href="#"><div class="timer">3:11</div></a>
+        <a href="#"><div class="dots1"><i class="fas fa-ellipsis-v"></i></div></a>
+        <script>
+jQuery('.dots1').on('click', function() {
+    jQuery('.menudots1').toggle();
+});
+</script>
+        <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+        <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+        <div class="menudots1"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+      <div class="grid-item" id="grid2">
+         <a href="https://www.youtube.com/watch?v=LhwSiZwn8eA"> 
+          <div class="vid2">
+          <img src="css/vids/pic2.jpg" width="360px" height="200px" id="pic" >
+          <img src="css/vids/preview2.gif" width="360px" height="200px" id="gif">
+          </div></a>
+        <script>
+          $('#grid2').hover(function(){
+    var hov = $(this).find('#gif'),
+        copy = hov.attr('src'); 
+        hov.attr('src','').attr('src',copy);
+});
+</script>
+        <a href="#"><img src="img/channel2.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+        <a href="#"><h4>Levan SAGINASHVILI vs Vitaly LALETIN ARM WRESTLING 2019</h4></a>
+        <a href="#"><p>ARMWRESTLING TV</a><br>2,2 млн. показвания . преди 10 месеца</p>
+        <a href="#"><div class="timer">6:09</div></a>
+        <a href="#"><div class="dots2"><i class="fas fa-ellipsis-v"></i></div></a>
+<script>
+jQuery('.dots2').on('click', function() {
+    jQuery('.menudots2').toggle();
+});
+</script>
+
+        <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+        <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+        <div class="menudots2"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+      <div class="grid-item" id="grid3">
+        <a href="https://www.youtube.com/watch?v=u7Ox96CNiZw"> 
+          <div class="vid3">
+          <img src="css/vids/pic3.jpg" width="360px" height="200px" id="pic" >
+          <img src="css/vids/preview3.gif" width="360px" height="200px" id="gif">
+          </div></a>
+        <script>
+          $('#grid3').hover(function(){
+    var hov = $(this).find('#gif'),
+        copy = hov.attr('src'); 
+        hov.attr('src','').attr('src',copy);
+});
+</script>
+        <a href="#"><img src="img/channel3.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+        <a href="#"><h4>Face Off!Agera,Regera,918,Chiron,La Ferrari,Huayra,Senna</h4></a>
+        <a href="#"><p> 19Bozzy92</a><br>7 797 339 показвания . преди 1 години</p>
+        <a href="#"><div class="timer">15:50</div></a>
+        <a href="#"><div class="dots3" ><i class="fas fa-ellipsis-v"></i></div></a>
+<script>
+jQuery('.dots3').on('click', function() {
+    jQuery('.menudots3').toggle();
+});
+</script>
+        <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+        <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+        <div class="menudots3"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+
+      <div class="grid-item" id="grid4">
+        <a href="https://www.youtube.com/watch?v=ZXbMvqm_jpg"> 
+          <div class="vid4">
+          <img src="css/vids/pic4.jpg" width="360px" height="200px" id="pic" >
+          <img src="css/vids/preview4.gif" width="360px" height="200px" id="gif">
+          </div></a>
+        <script>
+          $('#grid4').hover(function(){
+    var hov = $(this).find('#gif'),
+        copy = hov.attr('src'); 
+        hov.attr('src','').attr('src',copy);
+});
+</script>
+        <a href="#"><img src="img/channel4.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+        <a href="#"><h4>Alpina BMW B7 BiTurbo vs C63S AMG vs Audi RS6 Avant</h4></a>
+        <a href="#"><p>Gumbal</a><br>4 921 094 показвания . преди 2 години</p>
+        <a href="#"><div class="timer">4:14</div></a>
+        <a href="#"><div class="dots4" ><i class="fas fa-ellipsis-v"></i></div></a>
+<script>
+jQuery('.dots4').on('click', function() {
+    jQuery('.menudots4').toggle();
+});
+</script>
+
+        <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+        <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+        <div class="menudots4"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+
+      <div class="grid-item" id="grid5">
+        <a href="https://www.youtube.com/watch?v=l5d_BuI-KbA"> 
+          <div class="vid5">
+          <img src="css/vids/pic5.jpg" width="360px" height="200px" id="pic" >
+          <img src="css/vids/preview5.gif" width="360px" height="200px" id="gif">
+          </div></a>
+        <script>
+          $('#grid5').hover(function(){
+    var hov = $(this).find('#gif'),
+        copy = hov.attr('src'); 
+        hov.attr('src','').attr('src',copy);
+});
+</script>
+        <a href="#"><img src="img/channel5.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+        <a href="#"><h4>Timothée vs Robert | The Epic Battle from The King I Netflix</h4></a>
+        <a href="#"><p> Netflix UK & Ireland</a><br>1 733 119 показвания . преди 1 години</p>
+        <a href="#"><div class="timer">6:18</div></a>
+        <a href="#"><div class="dots5" ><i class="fas fa-ellipsis-v"></i></div></a>
+<script>
+jQuery('.dots5').on('click', function() {
+    jQuery('.menudots5').toggle();
+});
+</script>
+
+        <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+        <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+        <div class="menudots5"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+
+      <div class="grid-item" id="grid6">
+        <a href="https://www.youtube.com/watch?v=b6EUaH-9eOg"> 
+          <div class="vid6">
+          <img src="css/vids/pic6.jpg" width="360px" height="200px" id="pic" >
+          <img src="css/vids/preview6.gif" width="360px" height="200px" id="gif">
+          </div></a>
+        <script>
+          $('#grid6').hover(function(){
+    var hov = $(this).find('#gif'),
+        copy = hov.attr('src'); 
+        hov.attr('src','').attr('src',copy);
+});
+</script>
+        <a href="#"><img src="img/channel6.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+        <a href="#"><h4>World Championship of Jousting in Warragul 2019</h4></a>
+        <a href="#"><p>bohemian rhapsody magazine</a><br>63 030 показвания . преди 1 години</p>
+        <a href="#"><div class="timer">7:31</div></a>
+        <a href="#"><div class="dots6" ><i class="fas fa-ellipsis-v"></i></div></a>
+<script>
+jQuery('.dots6').on('click', function() {
+    jQuery('.menudots6').toggle();
+});
+</script>
+
+        <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+        <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+        <div class="menudots6"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+
+
+      <div class="grid-item" id="grid7">
+        <a href="https://www.youtube.com/watch?v=RiCN9xdmo10"> 
+          <div class="vid7">
+          <img src="css/vids/pic7.jpg" width="360px" height="200px" id="pic" >
+          <img src="css/vids/preview7.gif" width="360px" height="200px" id="gif">
+          </div></a>
+        <script>
+          $('#grid7').hover(function(){
+    var hov = $(this).find('#gif'),
+        copy = hov.attr('src'); 
+        hov.attr('src','').attr('src',copy);
+});
+</script>
+        <a href="#"><img src="img/channel7.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+        <a href="#"><h4>Brutal Battle | Scottish warriors defeats English army</h4></a>
+        <a href="#"><p> Shotgun BomBom</a><br>2 796 580 показвания . преди 1 години</p>
+        <a href="#"><div class="timer">7:35</div></a>
+        <a href="#"><div class="dots7" ><i class="fas fa-ellipsis-v"></i></div></a>
+<script>
+jQuery('.dots7').on('click', function() {
+    jQuery('.menudots7').toggle();
+});
+</script>
+
+        <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+        <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+        <div class="menudots7"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+        <div class="grid-item" id="grid8">
+          <a href="https://www.youtube.com/watch?v=OC8T140EdBc"> 
+            <div class="vid8">
+            <img src="css/vids/pic8.jpg" width="360px" height="200px" id="pic" >
+            <img src="css/vids/preview8.gif" width="360px" height="200px" id="gif">
+            </div></a>
+          <script>
+            $('#grid8').hover(function(){
+      var hov = $(this).find('#gif'),
+          copy = hov.attr('src'); 
+          hov.attr('src','').attr('src',copy);
+  });
+  </script>
+          <a href="#"><img src="img/channel8.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+          <a href="#"><h4>Xzibit, B-Real, Demrick (Serial Killers) - War (Official Music Video)</h4></a>
+          <a href="#"><p> No Jumper</a><br>472 263 показвания . преди 2 години</p>
+          <a href="#"><div class="timer">3:31</div></a>
+          <a href="#"><div class="dots8" ><i class="fas fa-ellipsis-v"></i></div></a>
+  <script>
+  jQuery('.dots8').on('click', function() {
+      jQuery('.menudots8').toggle();
+  });
+  </script>
+  
+          <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+          <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+          <div class="menudots8"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+
+          <div class="grid-item" id="grid9">
+            <a href="https://www.youtube.com/watch?v=l_lblj8Cq0o&list=RDl_lblj8Cq0o&start_radio=1"> 
+              <div class="vid9">
+              <img src="css/vids/pic9.jpg" width="360px" height="200px" id="pic" >
+              <img src="css/vids/preview9.gif" width="360px" height="200px" id="gif">
+              </div></a>
+            <script>
+              $('#grid9').hover(function(){
+        var hov = $(this).find('#gif'),
+            copy = hov.attr('src'); 
+            hov.attr('src','').attr('src',copy);
+    });
+    </script>
+            <a href="#"><img src="img/channel9.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+            <a href="#"><h4>G-Eazy-NoLimit ft. A$AP,CardiB,French Montana,Juicy J</h4></a>
+            <a href="#"><p>G-Eazy</a><br>452 751 128 показвания . преди 3 години</p>
+            <a href="#"><div class="timer">6:34</div></a>
+            <a href="#"><div class="dots9" ><i class="fas fa-ellipsis-v"></i></div></a>
+    <script>
+    jQuery('.dots9').on('click', function() {
+        jQuery('.menudots9').toggle();
+    });
+    </script>
+    
+            <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+            <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+            <div class="menudots9"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+    
+
+
+
+
+
+          <div class="grid-item" id="grid10">
+            <a href="https://www.youtube.com/watch?v=BoEOoUeDFAE"> 
+              <div class="vid10">
+              <img src="css/vids/pic10.jpg" width="360px" height="200px" id="pic" >
+              <img src="css/vids/preview10.gif" width="360px" height="200px" id="gif">
+              </div></a>
+            <script>
+              $('#grid10').hover(function(){
+        var hov = $(this).find('#gif'),
+            copy = hov.attr('src'); 
+            hov.attr('src','').attr('src',copy);
+    });
+    </script>
+            <a href="#"><img src="img/channel10.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+            <a href="#"><h4>Torture Test of Mini-Gun On Old Caravan</h4></a>
+            <a href="#"><p>Vickers Tactical</a><br>1 191 516 показвания . преди 6 години</p>
+            <a href="#"><div class="timer">3:40</div></a>
+            <a href="#"><div class="dots10" ><i class="fas fa-ellipsis-v"></i></div></a>
+    <script>
+    jQuery('.dots10').on('click', function() {
+        jQuery('.menudots10').toggle();
+    });
+    </script>
+    
+            <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+            <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+            <div class="menudots10"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+
+
+            <div class="grid-item" id="grid11">
+              <a href="https://www.youtube.com/watch?v=etWWIRlDW4M"> 
+                <div class="vid11">
+                <img src="css/vids/pic11.jpg" width="360px" height="200px" id="pic" >
+                <img src="css/vids/preview11.gif" width="360px" height="200px" id="gif">
+                </div></a>
+              <script>
+                $('#grid11').hover(function(){
+          var hov = $(this).find('#gif'),
+              copy = hov.attr('src'); 
+              hov.attr('src','').attr('src',copy);
+      });
+      </script>
+              <a href="#"><img src="img/channel11.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+              <a href="#"><h4>Warcraft (2016) - Gul'dan vs Durotan: Mak'gora [4K]</h4></a>
+              <a href="#"><p>Kimer Lorens</a><br>12 701 769 показвания . преди 3 години</p>
+              <a href="#"><div class="timer">5:49</div></a>
+              <a href="#"><div class="dots11" ><i class="fas fa-ellipsis-v"></i></div></a>
+      <script>
+      jQuery('.dots11').on('click', function() {
+          jQuery('.menudots11').toggle();
+      });
+      </script>
+      
+              <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+              <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+              <div class="menudots11"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+
+              <div class="grid-item" id="grid12">
+                <a href="https://www.youtube.com/watch?v=EfsO4B653h8"> 
+                  <div class="vid12">
+                  <img src="css/vids/pic12.jpg" width="360px" height="200px" id="pic" >
+                  <img src="css/vids/preview12.gif" width="360px" height="200px" id="gif">
+                  </div></a>
+                <script>
+                  $('#grid12').hover(function(){
+            var hov = $(this).find('#gif'),
+                copy = hov.attr('src'); 
+                hov.attr('src','').attr('src',copy);
+        });
+        </script>
+                <a href="#"><img src="img/channel12.jpg"alt="channel1" width="40px" height="40px" class="channel"></a>
+                <a href="#"><h4>Dennis Wolf motivation from OdinSAF 2014</h4></a>
+                <a href="#"><p>OdinSAF</a><br>91 543 показвания . преди 3 години</p>
+                <a href="#"><div class="timer">3:45</div></a>
+                <a href="#"><div class="dots12" ><i class="fas fa-ellipsis-v"></i></div></a>
+        <script>
+        jQuery('.dots12').on('click', function() {
+            jQuery('.menudots12').toggle();
+        });
+        </script>
+        
+                <a href="#"><div class="tale2"><i class="fas fa-indent"></i><div class="tale">ДОБАВЯНЕ В ОПАШКАТА</div></div></a>
+                <a href="#"><div class="tale2"><i class="fas fa-clock"></i><div class="tale">ЗА ГЛЕДАНЕ ПО-КЪСНО</div></div></a>
+                <div class="menudots12"><a href="#"><i class="fas fa-indent"></i> Добавяне в опашката</a></div></div>
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+      </div>
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  </div>
+
+
+
+</main>
+</body>
+</html>
